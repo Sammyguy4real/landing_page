@@ -8,28 +8,30 @@
     <title>How to become a Developer</title>
 </head>
 <body>
-    <div>
-        <h1>
+    <div class="left">
+            <div>
+                <h1>
             Learn to code by<br>watching others
-        </h1>
-    </div>
-    <div>
-        <p class="p">
+                 </h1>
+             </div>
+             <div>
+              <p class="p">
             See how experienced developers solve<br>problems in realtime.<br>Watching scripted tutorialsis great but<br>understanding how<br>developers think is invaluable
-        </p>
+             </p>
+            </div>
     </div>
-    <div class="pricing">
-        <strong>Try it free 7 days</strong> then $20/mo. thereafter
-    </div>
-    <div class="form">
-        <form class="form_reg">
+             <div class="pricing">
+              <strong>Try it free 7 days</strong> then $20/mo. thereafter
+            </div>
+    <div>
+        <form style="display:flex;flex-direction: column;gap:6px;padding:8px;max-width:300px;margin 0 auto;">
             <input type="text" id="fname" name="fname" placeholder="First Name">
             <input type="text" id="lname" name="lname" placeholder="Last Name">
-            <input type="text" id="Email" name="Email" placeholder="Email Address">
-            <input type="password" id="pwd" name="pwd" placeholder="Password" value="Password">
-        </form>
+            <input type="text" id="Email" name="email" placeholder="Email Address">
+            <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required placeholder="Password">
         <button class="button" type="submit">CLAIM YOUR FREE TRIAL</button>
         <p>By clicking the button you are agreeing to our<br><a href="https://www.frontendmentor.io">Terms and Services</a></p>
+        </form>
     </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 95, 9);
+    background-color:rgba (240, 240,240, 1);
     justify-content: center;
     text-align: center;
 }
@@ -10,6 +10,10 @@ h1 {
    font-weight: bolder;
    
 
+}
+
+.left {
+    justify-content: left;
 }
 
 p {
@@ -29,29 +33,8 @@ p {
     background-color: purple;
     padding-top: 10px;
     padding-bottom: 25px;
-    margin-left: 520px;
-    margin-right: 520px;
-    margin-bottom: 10px;
 }
 
-.form {
-    background-color: rgb(182, 247, 247);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-spacing: 30px;
-    margin-left: 420px;
-    margin-right: 420px;
-    border-radius: 8px;
-}
-
-.form_reg {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 8px;
-    max-width: 300px;
-    margin: 0 auto;
-}
 
 
 .button {
@@ -71,3 +54,4 @@ a:hover {
 a:active {
     color: red
 }
+
